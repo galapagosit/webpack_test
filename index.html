@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" xml:lang="ja" lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+    <title>PAY.JP | ペイ ドット ジェーピー</title>
+
+    <script type="text/javascript" src="/app.bundle.js"></script>
+    <script type="text/javascript" src="//jpostal-1006.appspot.com/jquery.jpostal.js"></script>
+    <script type="text/javascript">
+    $(window).ready( function() {
+      $('#postcode1').jpostal({
+        postcode : [
+          '#postcode1',
+        ],
+        address : {
+          '#address1'  : '%3',
+          '#address2'  : '%4',
+          '#address3'  : '%5'
+        }
+      });
+    });
+    </script>
+  </head>
+  <body>
+
+<span>郵便番号 〒</span>
+<input id="postcode1" name="postcode1"><br />
+
+<span>都道府県</span>
+<input id="address1" name="address1"><br />
+
+<span>市区町村</span>
+<input id="address2" name="address2"><br />
+
+<span>町域</span>
+<input id="address3" name="address3"><br />
+
+<span>都道府県カナ</span>
+<input id="address1_kana" name="address1_kana"><br />
+<span>市区町村カナ</span>
+<input id="address2_kana" name="address2_kana"><br />
+<span>町域カナ</span>
+<input id="address3_kana" name="address3_kana"><br />
+
+  </body>
+</html>

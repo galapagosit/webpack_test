@@ -1,0 +1,161 @@
+# All #
+######################
+*.
+!.gitignore
+*~
+
+Vagrantfile
+.vagrant
+.envrc
+.direnv
+/static
+internal/settings/local.py
+
+# OS X #
+######################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+# Python #
+######################
+*.py[cod]
+__pycache__
+.cache
+
+
+# Node.js #
+node_modules
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+/parts
+bin
+lib/python*
+var
+/share
+include
+man
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.idea
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Django
+*.log
+*.pot
+local_settings.py
+
+
+# Ruby #
+############
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+
+# Rails
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Node #
+############
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+
+# Java #
+############
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Scala #
+############
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
