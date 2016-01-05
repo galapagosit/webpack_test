@@ -159,3 +159,5 @@ project/plugins/project/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+app.bundle.js

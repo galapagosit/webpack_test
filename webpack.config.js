@@ -13,10 +13,10 @@ module.exports = {
   },
   progress: true,
   plugins: [
-    new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jQuery",
-        "windows.jQuery": "jquery"
-    }),
+    //new webpack.ProvidePlugin({
+    //    $: "jquery",
+    //    jQuery: "jQuery",
+    //    "windows.jQuery": "jquery"
+    //}),
   ]
 };
